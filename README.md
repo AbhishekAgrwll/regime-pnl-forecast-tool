@@ -2,7 +2,7 @@
 
 A Monte Carlo and historical VaR tool for a broker that takes the other side of client trades. I built it during my internship at Valutrades, a CFD broker, in summer 2025. The strategy team and the CFO used it to size the capital buffer held against client flow and to judge when to hedge.
 
-The original ran on the firm's internal daily P&L and volume data, which is confidential and is **not** in this repository. This version runs on a synthetic dataset with the same structure (see [Data](#data)). The numbers in the charts below are not real.
+> **All data in this repository is synthetic.** The original tool ran on the firm's internal daily P&L and volume data, which is confidential and is not included here. To protect it, this version runs on a generated dataset with the same structure: instruments, daily prices, and lots and P&L per client segment. Client regions are replaced by anonymous segments A and B. No figure in this repository, including the charts below, reflects real trading. See [Data](#data) for how the synthetic set is built.
 
 ![App screenshot](figures/app_screenshot.png)
 
